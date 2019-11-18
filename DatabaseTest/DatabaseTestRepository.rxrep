@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="DatabaseTestRepository"
+id="88f9b4d7-1dfd-4a6d-9cd4-4dd96b4fa470">
+  <codegen
+  classname="DatabaseTestRepository"
+  namespace="DatabaseTest"/>
+  <rootfolder
+  name="Root"
+  id="e4a90dc0-334f-41f6-b304-57d240b1fbdf"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+      <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

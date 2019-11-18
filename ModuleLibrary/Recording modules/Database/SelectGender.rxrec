@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="34aab7d1-0dcb-43d8-bf89-6ca0d151a5dc"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectGender"
+	namespace="ModuleLibrary.Recording_modules.Database">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cd3b80e9-a7e7-400c-b3f2-b1388c8362b4"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2c4264ea-5472-4130-914d-0c2204007626"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controltext=$varGender]
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="7836a8b2-b92c-4491-bcaf-ab949bfc54cb"
+	name="ModuleLibraryRepository"
+	relativepath="..\..\ModuleLibraryRepository.rxrep">
+		<codegen
+		classname="ModuleLibraryRepository"
+		namespace="ModuleLibrary">
+		</codegen>
+		<rootfolder
+		id="c734fd40-ff24-428a-afb1-d0cc1c4cdd1a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectGender.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

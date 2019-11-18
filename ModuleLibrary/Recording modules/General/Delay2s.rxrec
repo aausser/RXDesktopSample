@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fa0f42f4-7e13-4dff-a71d-1916d232ba2e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Delay2s"
+	namespace="ModuleLibrary.Recording_modules.General">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="7836a8b2-b92c-4491-bcaf-ab949bfc54cb"
+	name="ModuleLibraryRepository"
+	relativepath="..\..\ModuleLibraryRepository.rxrep">
+		<codegen
+		classname="ModuleLibraryRepository"
+		namespace="ModuleLibrary">
+		</codegen>
+		<rootfolder
+		id="c734fd40-ff24-428a-afb1-d0cc1c4cdd1a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Delay2s.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

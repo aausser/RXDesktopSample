@@ -1,0 +1,10 @@
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\bin\Debug\ModuleLibrary.rxtmg
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\bin\Debug\RxDemoApp.exe
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\bin\Debug\RxTestDatabase.csv
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\bin\Debug\ModuleLibrary.xml
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\bin\Debug\ModuleLibrary.dll
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\bin\Debug\ModuleLibrary.pdb
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\obj\x86\Debug\ModuleLibrary.csprojResolveAssemblyReference.cache
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\obj\x86\Debug\ModuleLibrary.dll
+C:\Users\aausserhofer\Desktop\LocalRepo\RxDesktopSample\ModuleLibrary\obj\x86\Debug\ModuleLibrary.pdb

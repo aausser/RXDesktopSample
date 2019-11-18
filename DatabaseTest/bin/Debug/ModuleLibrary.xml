@@ -1,0 +1,1065 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ModuleLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ModuleLibrary.Code_modules.RemoveAllEntries">
+            <summary>
+            Description of RemoveAllEntries.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Code_modules.RemoveAllEntries.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Code_modules.RemoveAllEntries.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepository">
+            <summary>
+            The class representing the ModuleLibraryRepository element repository.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the ModuleLibraryRepository element repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepository.varRegister">
+            <summary>
+            Gets or sets the value of variable varRegister.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepository.varDepartment">
+            <summary>
+            Gets or sets the value of variable varDepartment.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepository.varGender">
+            <summary>
+            Gets or sets the value of variable varGender.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepository.RXDemoApplication">
+            <summary>
+            The RXDemoApplication folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepository.DepartmentList">
+            <summary>
+            The DepartmentList folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepository.RxDemoAppAboutInfo">
+            <summary>
+            The RxDemoAppAboutInfo folder.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders.RXDemoApplicationAppFolder">
+            <summary>
+            The RXDemoApplicationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepositoryFolders.RXDemoApplicationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RXDemoApplication  folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RXDemoApplicationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RXDemoApplicationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RXDemoApplicationAppFolder.Register_panels">
+            <summary>
+            The Register_panels folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RXDemoApplicationAppFolder.Test_database_panel">
+            <summary>
+            The Test_database_panel folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RXDemoApplicationAppFolder.Main_menu">
+            <summary>
+            The Main_menu folder.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders.Register_panelsFolder">
+            <summary>
+            The Register_panelsFolder folder.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepositoryFolders.Register_panelsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Register_panels  folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Register_panelsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Register_panelsFolder.Register">
+            <summary>
+            The Register item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Register_panelsFolder.RegisterInfo">
+            <summary>
+            The Register item info.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder">
+            <summary>
+            The Test_database_panelFolder folder.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Test_database_panel  folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.LblDatabaseCounter">
+            <summary>
+            The LblDatabaseCounter item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.LblDatabaseCounterInfo">
+            <summary>
+            The LblDatabaseCounter item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.FirstListItem">
+            <summary>
+            The FirstListItem item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.FirstListItemInfo">
+            <summary>
+            The FirstListItem item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.Form_fields">
+            <summary>
+            The Form_fields folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Test_database_panelFolder.Buttons">
+            <summary>
+            The Buttons folder.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder">
+            <summary>
+            The Form_fieldsFolder folder.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Form_fields  folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.TxtFirstName">
+            <summary>
+            The TxtFirstName item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.TxtFirstNameInfo">
+            <summary>
+            The TxtFirstName item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.TxtLastName">
+            <summary>
+            The TxtLastName item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.TxtLastNameInfo">
+            <summary>
+            The TxtLastName item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.TxtAge">
+            <summary>
+            The TxtAge item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.TxtAgeInfo">
+            <summary>
+            The TxtAge item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.RdbGender">
+            <summary>
+            The RdbGender item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Form_fieldsFolder.RdbGenderInfo">
+            <summary>
+            The RdbGender item info.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder">
+            <summary>
+            The ButtonsFolder folder.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Buttons  folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder.BtnOpenDepartmentList">
+            <summary>
+            The BtnOpenDepartmentList item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder.BtnOpenDepartmentListInfo">
+            <summary>
+            The BtnOpenDepartmentList item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder.BtnAddEntry">
+            <summary>
+            The BtnAddEntry item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder.BtnAddEntryInfo">
+            <summary>
+            The BtnAddEntry item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder.BtnRemoveEntry">
+            <summary>
+            The BtnRemoveEntry item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.ButtonsFolder.BtnRemoveEntryInfo">
+            <summary>
+            The BtnRemoveEntry item info.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders.Main_menuFolder">
+            <summary>
+            The Main_menuFolder folder.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepositoryFolders.Main_menuFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Main_menu  folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Main_menuFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Main_menuFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Main_menuFolder.MnuAbout">
+            <summary>
+            The MnuAbout item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Main_menuFolder.MnuAboutInfo">
+            <summary>
+            The MnuAbout item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Main_menuFolder.MnuInfo">
+            <summary>
+            The MnuInfo item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.Main_menuFolder.MnuInfoInfo">
+            <summary>
+            The MnuInfo item info.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders.DepartmentListAppFolder">
+            <summary>
+            The DepartmentListAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepositoryFolders.DepartmentListAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DepartmentList  folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.DepartmentListAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.DepartmentListAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.DepartmentListAppFolder.DepartmentItem">
+            <summary>
+            The DepartmentItem item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.DepartmentListAppFolder.DepartmentItemInfo">
+            <summary>
+            The DepartmentItem item info.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.ModuleLibraryRepositoryFolders.RxDemoAppAboutInfoAppFolder">
+            <summary>
+            The RxDemoAppAboutInfoAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.ModuleLibraryRepositoryFolders.RxDemoAppAboutInfoAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxDemoAppAboutInfo  folder.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RxDemoAppAboutInfoAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RxDemoAppAboutInfoAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RxDemoAppAboutInfoAppFolder.LblAboutInfo">
+            <summary>
+            The LblAboutInfo item.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.ModuleLibraryRepositoryFolders.RxDemoAppAboutInfoAppFolder.LblAboutInfoInfo">
+            <summary>
+            The LblAboutInfo item info.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries">
+             <summary>
+            The CountNumberOfEntries recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries.varEntryCount">
+            <summary>
+            Gets or sets the value of variable varEntryCount.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.CountNumberOfEntries.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.InsertAge">
+             <summary>
+            The InsertAge recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.InsertAge.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertAge.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.InsertAge.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.InsertAge.varAge">
+            <summary>
+            Gets or sets the value of variable varAge.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertAge.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.InsertAge.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertAge.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertAge.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.AddEntry">
+             <summary>
+            The AddEntry recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.AddEntry.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.AddEntry.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.AddEntry.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.AddEntry.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.AddEntry.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.AddEntry.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.AddEntry.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.InsertFirstName">
+             <summary>
+            The InsertFirstName recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.InsertFirstName.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertFirstName.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.InsertFirstName.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.InsertFirstName.varFirstName">
+            <summary>
+            Gets or sets the value of variable varFirstName.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertFirstName.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.InsertFirstName.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertFirstName.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertFirstName.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.InsertLastName">
+             <summary>
+            The InsertLastName recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.InsertLastName.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertLastName.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.InsertLastName.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.InsertLastName.varLastName">
+            <summary>
+            Gets or sets the value of variable varLastName.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertLastName.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.InsertLastName.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertLastName.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.InsertLastName.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.RemoveEntry">
+             <summary>
+            The RemoveEntry recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.RemoveEntry.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.RemoveEntry.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.RemoveEntry.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.RemoveEntry.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.RemoveEntry.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.RemoveEntry.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.RemoveEntry.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.SelectDepartment">
+             <summary>
+            The SelectDepartment recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.SelectDepartment.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectDepartment.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.SelectDepartment.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.SelectDepartment.varDepartment">
+            <summary>
+            Gets or sets the value of variable varDepartment.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectDepartment.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.SelectDepartment.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectDepartment.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectDepartment.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.SelectFirstListItem">
+             <summary>
+            The SelectFirstListItem recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.SelectFirstListItem.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectFirstListItem.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.SelectFirstListItem.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectFirstListItem.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.SelectFirstListItem.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectFirstListItem.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectFirstListItem.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.SelectGender">
+             <summary>
+            The SelectGender recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.SelectGender.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectGender.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.SelectGender.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.SelectGender.varGender">
+            <summary>
+            Gets or sets the value of variable varGender.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectGender.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.SelectGender.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectGender.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.SelectGender.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Database.ValidateCounter">
+             <summary>
+            The ValidateCounter recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Database.ValidateCounter.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.ValidateCounter.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.ValidateCounter.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Database.ValidateCounter.varCounter">
+            <summary>
+            Gets or sets the value of variable varCounter.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.ValidateCounter.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Database.ValidateCounter.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.ValidateCounter.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Database.ValidateCounter.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.General.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.General.CloseAUT.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.General.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.General.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.General.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.General.Delay2s">
+             <summary>
+            The Delay2s recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.General.Delay2s.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.Delay2s.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.General.Delay2s.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.Delay2s.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.General.Delay2s.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.Delay2s.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.Delay2s.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.General.OpenAboutInfo">
+             <summary>
+            The OpenAboutInfo recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.General.OpenAboutInfo.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.OpenAboutInfo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.General.OpenAboutInfo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.OpenAboutInfo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.General.OpenAboutInfo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.OpenAboutInfo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.OpenAboutInfo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.General.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.General.StartAUT.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.General.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.General.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.General.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.General.ValidateVersionNumber">
+             <summary>
+            The ValidateVersionNumber recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.General.ValidateVersionNumber.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.ValidateVersionNumber.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.General.ValidateVersionNumber.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.ValidateVersionNumber.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.General.ValidateVersionNumber.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.ValidateVersionNumber.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.General.ValidateVersionNumber.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ModuleLibrary.Recording_modules.Navigation.SelectRegister">
+             <summary>
+            The SelectRegister recording.
+             </summary>
+        </member>
+        <member name="F:ModuleLibrary.Recording_modules.Navigation.SelectRegister.repo">
+            <summary>
+            Holds an instance of the global::ModuleLibrary.ModuleLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Navigation.SelectRegister.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Navigation.SelectRegister.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ModuleLibrary.Recording_modules.Navigation.SelectRegister.varRegister">
+            <summary>
+            Gets or sets the value of variable varRegister.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Navigation.SelectRegister.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ModuleLibrary.Recording_modules.Navigation.SelectRegister.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Navigation.SelectRegister.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ModuleLibrary.Recording_modules.Navigation.SelectRegister.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+    </members>
+</doc>

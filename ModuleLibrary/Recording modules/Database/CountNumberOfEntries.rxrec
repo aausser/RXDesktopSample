@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="85e363ef-68b0-4953-9a15-50218604f3df"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CountNumberOfEntries"
+	namespace="ModuleLibrary.Recording_modules.Database">
+	</codegen>
+	<variables>
+		<var
+		id="9b22cac5-bdda-4262-a556-e1189856297e"
+		name="varEntryCount">
+		</var>
+	</variables>
+	<recorditems>
+		<getvaluerecorditem
+		attrname="Text"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e983d700-0d8b-48a5-8004-12ac552f0b54"
+		varname="varEntryCount">
+			<comment>
+				Reads number of entries and copies value to variable
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5f335bbe-a2ae-4998-a0f8-48848ec6653e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='lblNumberOfPersonsNumber']
+				</path>
+			</info>
+		</getvaluerecorditem>
+	</recorditems>
+	<repository
+	id="7836a8b2-b92c-4491-bcaf-ab949bfc54cb"
+	name="ModuleLibraryRepository"
+	relativepath="..\..\ModuleLibraryRepository.rxrep">
+		<codegen
+		classname="ModuleLibraryRepository"
+		namespace="ModuleLibrary">
+		</codegen>
+		<rootfolder
+		id="c734fd40-ff24-428a-afb1-d0cc1c4cdd1a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CountNumberOfEntries.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

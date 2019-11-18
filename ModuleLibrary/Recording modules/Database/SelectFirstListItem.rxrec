@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7555cad0-733a-4d49-8e55-316aabd1ba5b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectFirstListItem"
+	namespace="ModuleLibrary.Recording_modules.Database">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="003e890c-b07f-40fa-b1fc-144e736a1cef"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="44f4a067-7018-405b-8ad1-101690ed329c"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']/?/?/listitem[1]
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="7836a8b2-b92c-4491-bcaf-ab949bfc54cb"
+	name="ModuleLibraryRepository"
+	relativepath="..\..\ModuleLibraryRepository.rxrep">
+		<codegen
+		classname="ModuleLibraryRepository"
+		namespace="ModuleLibrary">
+		</codegen>
+		<rootfolder
+		id="c734fd40-ff24-428a-afb1-d0cc1c4cdd1a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectFirstListItem.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

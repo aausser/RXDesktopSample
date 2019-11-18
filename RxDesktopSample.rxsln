@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.2.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF7124FE-1212-4605-928D-0B0439894818}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseTest", "DatabaseTest\DatabaseTest.csproj", "{88310A1F-14B3-4544-88BF-D451DC389059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleLibrary", "ModuleLibrary\ModuleLibrary.csproj", "{5B63588F-9527-4981-BE1B-C37A28F59D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88310A1F-14B3-4544-88BF-D451DC389059}.Debug|x86.Build.0 = Debug|x86
+		{88310A1F-14B3-4544-88BF-D451DC389059}.Debug|x86.ActiveCfg = Debug|x86
+		{88310A1F-14B3-4544-88BF-D451DC389059}.Release|x86.Build.0 = Release|x86
+		{88310A1F-14B3-4544-88BF-D451DC389059}.Release|x86.ActiveCfg = Release|x86
+		{5B63588F-9527-4981-BE1B-C37A28F59D39}.Debug|x86.Build.0 = Debug|x86
+		{5B63588F-9527-4981-BE1B-C37A28F59D39}.Debug|x86.ActiveCfg = Debug|x86
+		{5B63588F-9527-4981-BE1B-C37A28F59D39}.Release|x86.Build.0 = Release|x86
+		{5B63588F-9527-4981-BE1B-C37A28F59D39}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

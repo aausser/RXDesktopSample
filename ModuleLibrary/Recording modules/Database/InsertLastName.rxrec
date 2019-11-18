@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d991f0a2-ebbb-4339-9f4d-5fa49a850147"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InsertLastName"
+	namespace="ModuleLibrary.Recording_modules.Database">
+	</codegen>
+	<variables>
+		<var
+		id="8d552d09-36c1-4e67-b794-7d873bd8aac7"
+		name="varLastName">
+		</var>
+	</variables>
+	<recorditems>
+		<setvaluerecorditem
+		attrname="Text"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e78b1fb5-c49e-44a3-b225-c1daeb45a0f0">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="varLastName">
+				</binding>
+			</bindings>
+			<info
+			id="84b60263-0dc0-412c-9c91-be81763c93bc"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="241,798,173,19"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Last name
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='Last name']
+				</path>
+			</info>
+			<AttributeValue>
+			</AttributeValue>
+		</setvaluerecorditem>
+	</recorditems>
+	<repository
+	id="7836a8b2-b92c-4491-bcaf-ab949bfc54cb"
+	name="ModuleLibraryRepository"
+	relativepath="..\..\ModuleLibraryRepository.rxrep">
+		<codegen
+		classname="ModuleLibraryRepository"
+		namespace="ModuleLibrary">
+		</codegen>
+		<rootfolder
+		id="c734fd40-ff24-428a-afb1-d0cc1c4cdd1a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InsertLastName.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

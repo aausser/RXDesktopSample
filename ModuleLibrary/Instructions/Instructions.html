@@ -1,0 +1,122 @@
+<html>
+<head> 
+<STYLE type="text/css">
+body, html, div, p, i, strong, table {
+color: #505050;
+text-align: left;
+float: left;
+font-size: 13px;
+line-height: 1.4em;
+background-color: #fff;
+margin: 30px 30px 30px 30px;
+font-family: "Segoe UI", Arial,Helvetica;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: "Segoe UI", Verdana,Arial;
+font-weight: 500;
+padding: 0;
+}
+h1{
+background: #EFEFEF;
+border-bottom: 9px solid #DDD;
+color: #e10000;
+font-size: 18pt;
+padding: 10px 55px;
+font-weight: 400;
+margin: 0 0 15px 0;
+line-height: 1.2em;
+}
+
+h2 {
+font-size: 14pt;
+color: #444;
+margin: 24px 0 12px 0;
+padding: 3px 0;
+border-bottom: 1px solid #ddd;
+line-height: 1.2em;
+display: block;
+}
+a:visited {
+color: #db4848;
+}
+a:link {
+color: #e10000;
+}
+</STYLE>
+</head>
+<body>
+
+<h1>Ranorex Studio Desktop Testing Sample Solution</h1>
+v.2.0, October 2019
+
+<h2>Introduction</h2>
+This sample solution represents a database test based on the Ranorex demo application which is included within the solution.
+Sufficient inline documentation guarantees self-explanation. Refer to our online user guide at 
+<a target='_blank' href="https://www.ranorex.com/help/latest/">www.ranorex.com/help/latest/</a>
+for further support and help.<br /><br />
+
+The solution is divided into two test suites:
+<h3>SmokeTest (if you fail - fail fast...)</h3>
+The concept of smoke tests (i.e. preliminary testing) reveals simple failures severe enough to, for example
+recect a prospective software release. Smoke tests cover the most important functionality of a component
+or system. The current smoke test includes:
+
+<ol>
+	<li><b>StartCloseTest</b></li>
+	This test validates if the application under test (Ranorex Demo Application) can be started and closed.
+	<li><b>AUTVersionTest</b></li>
+	This test validates if the installed application refers to a specific version.
+</ol>
+
+<h3>DatabaseTest</h3>
+The database test represents a 3-step test consisting of the below listed test cases:
+
+<ol>
+	<li><b>Test_empty_database</b></li>
+	This test validates if the initial, empty database is setup correctly. This is done by validating
+	if the initial database counter is set to '0'.
+	<li><b>Test_one_entry_database</b></li>
+	Here, one complete database entry is inserted into the form fields and added to the database.
+	The test then validates if the database counter correctly increases from '0' to '1'.
+	<li><b>Data-driven_database_test</b></li>
+	Finally, the third test case demonstrates data-driven testing. 8 entries are read from an external
+	data source (CSV file) and inserted into the database. It is validated, that the database counter
+	correctly shows the final number of entries.
+</ol>
+
+<h2>Controlling the test execution</h2>
+The test execution can be controlled in as follows:
+
+<h3>Test sequence</h3>
+If there are two or more test suites within a project, opening the <b>drop-down list</b> of the <b>toolbar RUN button</b> opens
+access to the configuration of the test sequence.<br /><br />
+
+<img src="Images\A20-0000010.png" border="1">	<br /><br />
+
+Here you can change the sequence in which test suites are executed and select their run configurations.
+<br /><br />
+
+<h3>Run configuration</h3>
+Run configurations are a smart way of including/excluding test cases from a test suite during a test execution.<br /><br />
+
+<img src="Images\A20-0000020.png" border="1">	<br /><br />
+
+<ol>
+	<li><b>Select</b> one run configuration from the list</li>
+	<li>Click the <b>RUN</b> button to execute this configuration</li>
+</ol>
+
+<h2>Further information</h2>
+Ranorex offers a wide variety of support, information and help.
+
+<ul>
+	<li><a target='_blank' href="https://www.ranorex.com/help/latest/">Ranorex online user guide</a></li>
+	<li><a target='_blank' href="https://www.ranorex.com/automated-testing-webinars/">Upcoming live and on-demand webinars</a></li>
+	<li><a target='_blank' href="https://www.ranorex.com/resources/">Ranorex Softwar Testing Resources page (Screencasts, WIKIs, Blogs, ...)</a></li>
+</ul>
+
+Have fun with our desktop testing sample solution!<br />
+Your Ranorex Team!<br />
+
+</body>	
+</html>

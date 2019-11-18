@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cda888a9-9cc0-436e-9289-55cc1f987cde"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectRegister"
+	namespace="ModuleLibrary.Recording_modules.Navigation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9fd78e9a-5db5-471c-a52c-696234c456da"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+				Parametrized selection of register panel; Selection of register based on value of parameter
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6bd3d99d-1e43-4183-8e36-5c31c3f37978"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename=$varRegister]
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="7836a8b2-b92c-4491-bcaf-ab949bfc54cb"
+	name="ModuleLibraryRepository"
+	relativepath="..\..\ModuleLibraryRepository.rxrep">
+		<codegen
+		classname="ModuleLibraryRepository"
+		namespace="ModuleLibrary">
+		</codegen>
+		<rootfolder
+		id="c734fd40-ff24-428a-afb1-d0cc1c4cdd1a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectRegister.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
